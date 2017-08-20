@@ -7,8 +7,9 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 
-load(".\\data\\immDataAll.Rda")
-load(".\\data\\immDataRegion.Rda")
+load("./data/immDataAll.Rda")
+load("./data/immDataRegion.Rda")
+
 
 # Logic for drawing plot
 shinyServer(function(input, output) {

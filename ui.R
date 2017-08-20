@@ -12,10 +12,10 @@ shinyUI(fluidPage(
     sidebarLayout(
         sidebarPanel(
             h3("Plot 1"),
-            h3("Choose which vaccinations to see"),
+            h3("Interactive vaccination rates in Australia"),
             
             p("Some vaccinations are more closely aligned with the total vaccination
-              rate than others. Ignoring time and region you have a choice of vaccinate
+              rate than others. Ignoring time and region, you have a choice of vaccinate
               rates to compare to total vaccination rates in Australia."),
             
             p("Choose from one of the 8 seperate vaccinations that are tracked:"),
